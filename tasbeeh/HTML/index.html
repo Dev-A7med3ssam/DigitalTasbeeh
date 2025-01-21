@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مسبحة أفق الإيمان</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&display=swap">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>مسبحة أفق الإيمان</h1>
+
+        <div class="top-bar">
+
+            <div id="clock" class="clock"></div>
+
+            <div class="mode-toggle">
+
+                <label class="switch">
+
+                    <input type="checkbox" id="night-mode-toggle">
+
+                    <span class="slider"></span>
+
+                </label>
+
+                <p class="mode-text">N.M </p>
+
+            </div>
+
+        </div>
+
+        <div id="zikr-container">
+
+            <p id="zikr">سبحان الله</p>
+
+            <div class="counter" id="counter">0</div>
+
+            <p id="percentage">نسبة التقدم: 0%</p> <!-- إضافة نسبة الأذكار -->
+
+        </div>
+
+        <button id="reset-button">البدء من جديد</button>
+
+        <p class="quote">"وَالذَّاكِرِينَ اللَّهَ كَثِيراً وَالذَّاكِرَاتِ أَعَدَّ اللَّهُ لَهُمْ مَغْفِرَةً وَأَجْراً عَظِيماً"</p>
+
+        <p class="motivational-quote" id="motivational-quote"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
